@@ -1,0 +1,44 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.generate-button, .close-button {
+    padding: 8px 16px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.generate-button {
+    background-color: #9ad894;
+    color: white;
+}
+
+.close-button {
+    background-color: #8a86b8;
+    color: white;
+}
+
+.invite-link {
+    margin-top: 10px;
+    font-weight: bold;
+}

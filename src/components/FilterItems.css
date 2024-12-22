@@ -1,0 +1,21 @@
+.filter-items {
+    position: absolute;
+    top: 130px;
+    right: 550px;
+    gap: 15px;
+    
+}
+
+
+.filter-button {
+    margin-right: 20px;
+    background-color: #bcd2f1fc;
+    color: #2d2a44fc;
+    font-size: 0.8em;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}

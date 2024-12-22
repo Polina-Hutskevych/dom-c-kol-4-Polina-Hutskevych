@@ -1,0 +1,27 @@
+.invited-users {
+    position: relative;
+    right: 250px;
+    bottom: 855px;
+   
+}
+
+.invited-user {
+    display: flex;
+    padding: 5px ;
+    gap: 23px;
+    
+}
+
+
+.invited-users-caption {
+    margin-left: 70px;
+}
+
+.remove-button {
+    padding: 4px 8px;
+    background-color: #ff885a;
+    color: white;
+    border: none;
+    border-radius: 39px;
+    cursor: pointer;
+}

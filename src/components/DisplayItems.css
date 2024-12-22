@@ -1,0 +1,37 @@
+.display-items {
+    position: relative;
+    bottom: 930px; 
+    right: 30px;
+}
+
+.shopping-item {
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    border-bottom: 1px solid #080447;
+    color: #080447;
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.shopping-item span {
+    margin-right: 20px; 
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.item-checkbox {
+    margin-left: 395px; 
+    width: 17px;       
+    height: 17px;      
+    cursor: pointer;   
+    transform: scale(1); 
+    accent-color: #a0dfa2; 
+}
+
